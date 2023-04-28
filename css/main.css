@@ -1,0 +1,155 @@
+.nav a {
+    text-decoration: none;
+}
+.nav-munu{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+row-gap: 20px;
+list-style: none;
+padding: 0;
+min-height: 150px;
+box-shadow: 0px 4px 11px -1px rgb(44, 44, 44);
+cursor: pointer;
+}
+.label{
+    background-color: #2f2c6e;
+    margin: 0;
+    transition: all 0.3s ease;
+    color: gold;
+    text-shadow: 0 5px 10px rgb(225, 255, 0) ;
+}
+.menu-list{
+    background-color: #2f2c6e;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+height: 40px;
+width: 200px;
+transition: all 0.3s ease;
+}
+.hidden{
+ visibility: hidden;
+}
+.menu-list:hover{
+    opacity: 0.8;
+    font-size: 25px;
+    transition: all 0.5s ease;
+    text-shadow: 0px 1px 10px rgb(225, 255, 0), 
+     0px 1px 10px rgb(225, 255, 0), 
+     0px 1px 10px rgb(225, 255, 0), 
+     0px 1px 10px rgb(225, 255, 0);
+}
+.slider-img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;  
+}
+.dark-light{
+    background-color: #413a3a; 
+
+ }
+ 
+.c{
+    text-shadow: 0px 1px 10px rgb(225, 255, 0), 
+     0px 1px 10px rgb(225, 255, 0), 
+     0px 1px 10px rgb(225, 255, 0);
+     transition: all 0.2s;
+}
+.c:hover{
+   font-size: 25px; 
+}
+.n{
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 1px 10px rgb(255, 42, 0), 
+    0px 1px 10px rgb(255, 0, 0), 
+    0px 1px 10px rgb(255, 0, 0);
+    /* font-size: 25px; */
+  
+}
+.dark-mode{
+    border: none;
+    background:none;
+}
+input[type="checkbox"]{
+    height: 60px;
+    width: 60px;
+    -webkit-appearance: none;
+  
+     outline: none;
+     color: red;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+
+input[type="checkbox"]::after{
+    font-family:FontAwesome;
+font-size: 40px;
+content: "\f011";
+}
+input[type="checkbox"]:checked{
+box-shadow: -5px -5px 15px green,
+5px 5px 15px green,
+inset -10px -10px 15px grey,
+inset 10px 10px 15px grey ;
+border-radius: 50%;
+}
+input[type="checkbox"]:checked::after{
+color: chartreuse;
+}
+.menu-a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.li1:hover{
+  color: #fafbfc;
+    text-shadow: 0px 1px 10px rgb(225, 255, 0), 
+     0px 1px 10px rgb(225, 255, 0), 
+     0px 1px 10px rgb(225, 255, 0), 
+     0px 1px 10px rgb(225, 255, 0);
+     transition: all 0.2s;
+}
+.li2:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 1px 10px rgb(0, 64, 255), 
+     0px 1px 10px rgb(0, 42, 255), 
+     0px 1px 10px rgb(30, 0, 255), 
+     0px 1px 10px rgb(21, 0, 255); 
+     transition: all 0.2s;
+}
+.li3:hover{
+    color: rgb(248, 255, 255);
+    text-shadow: 5px 1px 10px rgb(255, 0, 76), 
+     0px 1px 10px rgb(255, 0, 72), 
+     0px 1px 10px rgb(255, 0, 89), 
+     0px 1px 10px rgb(255, 0, 60);
+     transition: all 0.2s; 
+}
+.li4:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 1px 10px rgb(255, 0, 0), 
+     0px 1px 10px rgb(255, 0, 0), 
+     0px 1px 10px rgb(255, 0, 0),
+     0px 1px 10px rgb(255, 0, 0); 
+   transition: all 0.2s;
+}
+.btn-activ:hover{
+    color: black;
+    text-shadow: 5px 1px 10px rgb(255, 255, 255), 
+    0px 1px 10px rgb(246, 244, 244), 
+    0px 1px 10px rgb(255, 255, 255),
+    0px 1px 10px rgb(255, 255, 255); 
+    font-size: 30px;
+  transition: all 0.2s;
+}
+.footer-hover:hover{
+    text-shadow: 0px 1px 10px rgb(0, 0, 0), 
+    0px 1px 10px rgb(0, 0, 0), 
+    0px 1px 10px rgb(0, 0, 0),
+    0px 1px 10px rgb(0, 0, 0); 
+    transition: all 0.2s; 
+}
